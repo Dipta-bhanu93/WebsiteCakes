@@ -1,0 +1,29 @@
+.headerBody{background-color: fuchsia;height:80px ;border: 2px;}
+.dropbtn {  background-color: fuchsia;  color: white;  padding-top: 35px;  font-size: 12px;  border: none;}
+.dropbtnlogin { background-color: fuchsia;  color: Black;  padding-top: 35px;  font-size: 12px;  border: none;}
+.dropdown { background-color: fuchsia; position: relative;  display: inline-block;}
+.dropdown-content {  display: none;  position: absolute;  background-color: #f1f1f1;  min-width: 110px;  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+.dropdown-content a {  color: black;  padding: 12px 16px;  text-decoration: none;  display: block;}
+.dropdown-content a:hover {background-color: #ddd}
+.dropdown:hover .dropdown-content {  display: block;}
+.dropdown:hover .dropbtn {  background-color: fuchsia;}
+.dropdowncat{  float: left;  overflow: hidden;  }
+.dropdowncat .dropbtncat {  font-size: 12px;      border: none;  outline: none;  color: white;  padding-top:35px ;  background-color: inherit;   margin: 0;}
+.dropdowncat:hover .dropbtncat {  background-color:fuchsia;}
+.dropdown-content-cat {  display: none;  position: absolute;  background-color: #ccc;  width: 100%;  left: 0;  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  z-index: 1;}
+.dropdown-content-cat .header {   padding: 16px;  color: Black;}
+.dropdowncat:hover .dropdown-content-cat {  display: block;}
+/* Create three equal columns that floats next to each other */
+.column {  float: left;  width: 23%;  padding: 10px;  background-color: #ccc;  height: 250px;}
+.column a {  float: none;  color: black;  padding: 16px;  text-decoration: none;  display: block;  text-align: left;}
+.column a:hover {  background-color: #ddd;}
+
+/* Clear floats after the columns */
+.row:after {  content: "";  display: table;  clear: both;}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {  .column {      width: 100%;      height: auto;  }}
+.banner-Box{float: left;}
+.button-Box{float: right;padding-right: 24px;width: auto;}
+.button3 {height: 40px; width: 30%;  background-color: transparent; font-size: 100%; color: transparent; font-family: 'Muli', sans-serif; border-radius: 5px; margin-top:10px; }
+.button3:hover { background-color: transparent;}
