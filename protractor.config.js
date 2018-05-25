@@ -34,7 +34,7 @@ exports.config = {
   useAllAngular2AppRoots: true,
 
   // Base URL for application server
-  baseUrl: 'http://localhost:8080',
+  baseUrl: 'http://192.168.2.132:5000',
 
   // doesn't seem to work.
   // resultJsonOutputFile: "foo.json",

@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'home',
-  templateUrl: 'app/home.Component.html',
+  templateUrl: 'app/home.component.html',
 })
-export class HomeComponent  { name = 'Angular'; }
+export class HomeComponent  { 
+//This is where all data will be fetched
+
+ }
